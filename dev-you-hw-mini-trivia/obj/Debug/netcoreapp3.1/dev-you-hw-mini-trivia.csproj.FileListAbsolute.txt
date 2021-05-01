@@ -1,0 +1,12 @@
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.csprojAssemblyReference.cache
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.AssemblyInfoInputs.cache
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.AssemblyInfo.cs
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.csproj.CoreCompileInputs.cache
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/bin/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.deps.json
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/bin/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.runtimeconfig.json
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/bin/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.runtimeconfig.dev.json
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/bin/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.dll
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/bin/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.pdb
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.dll
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.pdb
+/Users/Eli/Projects/dev-you-hw-mini-trivia/dev-you-hw-mini-trivia/obj/Debug/netcoreapp3.1/dev-you-hw-mini-trivia.genruntimeconfig.cache
