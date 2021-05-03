@@ -14,68 +14,86 @@ namespace dev_you_hw_mini_trivia
             //Let the user know if their answer is correct or incorrect
 
 
-            Console.WriteLine("Welcome to mini-trivia! Choose a trivia category: Pop culture, Tech, History or select exit to Quit");
+           
+                Console.WriteLine("Welcome to mini-trivia! Choose a trivia category: Pop culture, Tech, History or select exit to Quit");
 
-            string userAnswer;
-            string triviaChoice = Console.ReadLine().ToLower();
-            
+                string userAnswer;
+                string triviaChoice = Console.ReadLine().ToLower();
+                int score = 0;
 
-            switch (triviaChoice)
-            {
-                case "pop culture":
-                    Console.WriteLine("Who is the orginal DC character that DeadPool was inspired by?");
-                    userAnswer = Console.ReadLine().ToLower();
-                    if (userAnswer == "deathstroke")
-                    {
-                        Console.WriteLine("That's correct!");
 
-                    }
-                    else
-                    {
-                        Console.WriteLine("Try again");
-                    }
-                    break;
-                case "tech":
-                    Console.WriteLine("What car was nicknamed the 'Batmobile'?");
-                    userAnswer = Console.ReadLine().ToLower();
-                    if (userAnswer == "lincoln futura")
-                    {
-                        Console.WriteLine("That's correct!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Try again");
+                switch (triviaChoice)
+                {
+                    case "pop culture":
+                        Console.WriteLine("Who is the orginal DC character that DeadPool was inspired by?");
+                        userAnswer = Console.ReadLine().ToLower();
+                        if (userAnswer == "deathstroke")
+                        {
+                            Console.WriteLine("That's correct!");
+                            score++;
+                            Console.WriteLine("Your score: " + score);
+
+                        }
+                        else
+                        {
+                            Console.WriteLine("Try again");
+                        score--;
+                        Console.WriteLine("Your score: " + score);
+                        }
+                        break;
+                    case "tech":
+                        Console.WriteLine("What car was nicknamed the 'Batmobile'?");
+                        userAnswer = Console.ReadLine().ToLower();
+                        if (userAnswer == "lincoln futura")
+                        {
+                            Console.WriteLine("That's correct!");
+                            score++;
+                            Console.WriteLine("Your score: " + score);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Try again");
+                        score--;
+                        Console.WriteLine("Your score: " + score);
                     }
 
-                    break;
-                case "history":
-                    Console.WriteLine("In 1816, which US state was admitted to the Union as the 20th state?");
-                    userAnswer = Console.ReadLine().ToLower();
+                        break;
+                    case "history":
+                        Console.WriteLine("In 1816, which US state was admitted to the Union as the 20th state?");
+                        userAnswer = Console.ReadLine().ToLower();
 
-                    if (userAnswer == "mississippi")
-                    {
-                        Console.WriteLine("That's correct!");
+                        if (userAnswer == "mississippi")
+                        {
+                            Console.WriteLine("That's correct!");
+                             score++;
+                            Console.WriteLine("Your score: " + score);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Try again");
+                        score--;
+                        Console.WriteLine("Your score: " + score);
                     }
-                    else
-                    {
-                        Console.WriteLine("Try again");
-                    }
-                    break;
-                case "exit":
-                    
-                    
+                        break;
+                    case "exit":
+
+
                         Console.WriteLine("Thanks for playing!");
-                    
-                    break;
-                default:
-                    Console.WriteLine("Select a valid category");
-                    break;
 
-            }
-            Console.WriteLine("Press ENTER to Exit");
-            Console.ReadLine();
+                        break;
+                    default:
+                        Console.WriteLine("Select a valid category");
+                        break;
+
+                }
+            
+            
+                Console.WriteLine("Press ENTER to Exit");
+                Console.ReadLine();
+            
+        }
 
         }
     }
-}
+
         
