@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C31D5B49-4A4A-42A6-8A7D-06D852DBC153}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="dev-you-hw-mini-trivia/Program.cs">
     <Files>
-      <File FileName="dev-you-hw-mini-trivia/Program.cs" Line="82" Column="18" />
+      <File FileName="dev-you-hw-mini-trivia/Program.cs" Line="34" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,6 +12,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
